@@ -32,6 +32,7 @@ require('lazy').setup({
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
   'nvim-tree/nvim-tree.lua',
+  'm4xshen/autoclose.nvim',
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
@@ -484,4 +485,6 @@ require("nvim-tree").setup({
     dotfiles = true,
   },
 })
+
+require("autoclose").setup()
 
